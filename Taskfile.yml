@@ -1,0 +1,6 @@
+version: "3"
+
+tasks:
+  generate-rbs:
+    cmds:
+      - bundle exec rbs-inline --output .

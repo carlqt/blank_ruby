@@ -1,0 +1,26 @@
+# Generated from blank.rb with RBS::Inline
+
+class Baz
+  # : () -> String?
+  def greet: () -> String?
+
+  # : () -> Symbol?
+  def join: () -> Symbol?
+end
+
+class Foo
+  # Instance Variable
+  @foo: Baz?
+
+  # : (Baz) -> void
+  def initialize: (Baz) -> void
+
+  # : () -> void
+  def run: () -> void
+
+  # @rbs (Baz) -> String?
+  def bar: (Baz) -> String?
+
+  # : (Baz) -> Integer?
+  def baz: (Baz) -> Integer?
+end
